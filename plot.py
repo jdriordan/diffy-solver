@@ -24,5 +24,5 @@ def init():
     return line,
 
 ani = animation.FuncAnimation(fig, animate, np.arange(0, filelength), init_func=init,
-    interval=25, blit=True)
+    interval=200, blit=True)
 plt.show()
